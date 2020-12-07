@@ -25,19 +25,19 @@ function coeur(m) {
   
 }
 
-function plus(a)
-{
-    a.innerHTML=a.innerHTML+1;
+function plus()
+{ 
+   return a.innerHTML=+ a.innerHTML+1;
 }
 
-fuction moins(c) 
+fuction moins() 
 {
-    c.innerHTML=+a.innerHtml-1;
+  return  c.innerHTML=+a.innerHtml-1;
 }
 
 
 
-function somm(a )
+function somm()
 {
     return a * 250 ;
 }
